@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(168, 222, 255);
+    padding: 1rem 2rem;
+    box-sizing: inherit;
+}
+.title{
+    text-transform:uppercase;
+    font-size: 1.8rem;
+}
+hr{
+    background-color: gray;
+    margin-bottom: 1rem;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h4{
+    font-weight: 400;
+    margin: 0;
+}
+.box-1{
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+    padding: 1rem;
+    box-sizing: inherit;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+.address-div{
+    width: 30%;
+    float: left;
+    text-transform: capitalize;
+}
+.box-1>h1{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom:.5rem;
+}
+.contact-div{
+    width: 30%;
+    float: left;
+}
+.logo-div{
+    height: 100%;
+    width: 30%;
+    float: right;
+    padding: 1rem;
+  
+    position: relative;
+
+}
+.box-2{
+    height: 60%;
+    width: 100%;
+    background-color: white;
+padding: 1rem;
+box-sizing: inherit;
+
+}
+.inp-div{
+width: 52.5%;
+float: left;
+box-sizing: inherit;
+}
+.map-div{
+height: 100%;
+width: 45%;
+float: right;
+}
+.message-box{
+    min-width: 98.5%;
+    max-width:  98.5%;
+    font-size: 1rem;
+    padding: .5rem;
+    box-sizing: inherit;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+input{
+    width: 48%;
+    padding: .8rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 1rem;
+}
+input:not(:nth-child(2n)){
+    margin-right: .8rem;
+}
+input:focus,.message-box:focus{
+    outline: none;
+}
+.btn{
+    padding: .5rem 1rem;
+    background-color: rgb(216, 8, 8);
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.img-div{
+    width: 100%;
+    height: 90%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icons-div{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0rem;
+    box-sizing: inherit;
+    margin-top: -10px
+}
+.icons{
+    width: 1rem;
+
+}
+.location-dot-solid{
+  
+   width: 2rem;
+   position:absolute ;
+   top: 1rem;
+   left: 50%;
+}
